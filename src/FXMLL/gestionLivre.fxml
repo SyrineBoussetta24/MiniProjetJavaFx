@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="657.0" prefWidth="1068.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="59.0" layoutY="140.0" prefHeight="420.0" prefWidth="809.0" >
+        <columns>
+          <TableColumn prefWidth="178.39999961853027" text="Titre" />
+          <TableColumn minWidth="0.0" prefWidth="152.80001831054688" text="Auteur" />
+            <TableColumn minWidth="0.0" prefWidth="150.39996337890625" text="Année Edition" />
+            <TableColumn minWidth="0.0" prefWidth="164.80001831054688" text="Référence" />
+            <TableColumn minWidth="0.0" prefWidth="194.0" text="langue" />
+        </columns>
+      </TableView>
+      <Button layoutX="11.0" layoutY="43.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="138.0" style="-fx-background-color: #871b3e; -fx-background-radius: 30px;" text="Ajouter livre" textFill="#f5d1cc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="161.0" layoutY="44.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #871b3e; -fx-background-radius: 30px;" text="Modifier livre" textFill="#f5d1cc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="319.0" layoutY="44.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="158.0" style="-fx-background-color: #871b3e; -fx-background-radius: 30px;" text="Suprimer livre" textFill="#f5d1cc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="485.0" layoutY="44.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="177.0" style="-fx-background-color: #871b3e; -fx-background-radius: 30px;" text="Lister Par Ancienneté" textFill="#f5d1cc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="680.0" layoutY="45.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="126.0" style="-fx-background-color: #871b3e; -fx-background-radius: 30px;" text="Exporter" textFill="#f5d1cc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
